@@ -9,11 +9,8 @@ const FaqFilter = ({ searchTerm, setSearchTerm, getFAQData }) => {
 
   return (
     <div id='faq-search-filter'>
-      <Card
-        className='faq-search'
-        style={{
-          backgroundImage: `url(${require('@src/assets/images/banner/banner.png').default})`
-        }}
+      {/* <Card
+        
       >
         <CardBody className='text-center'>
           <h2 className='text-primary'>Let's answer some questions</h2>
@@ -29,7 +26,7 @@ const FaqFilter = ({ searchTerm, setSearchTerm, getFAQData }) => {
             </InputGroup>
           </Form>
         </CardBody>
-      </Card>
+      </Card> */}
     </div>
   )
 }
